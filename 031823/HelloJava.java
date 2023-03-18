@@ -15,3 +15,12 @@ public class HelloJava {
     }
 
 }
+
+//  ---TERMINAL COMMANDS---
+// ALWAYS COMPILE FIRST
+// javac- Compiles JavaCode into ByteCode
+// javac <file name>.java
+// java- executes the complied code
+// java <file name>
+// pressing tab finds the files
+
