@@ -52,6 +52,7 @@ public class BooleanComparisons {
         System.out.println("Java: " + (distance1 != distance2) + "\n");
 
         // DO NOT use == or != when comparing strings ****
+        // Use equals and !equals instead *****
         String word = "hello";
         String secondWord = "hello";
 
