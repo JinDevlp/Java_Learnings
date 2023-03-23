@@ -12,6 +12,20 @@ public class IfElse {
             System.out.println("No, work harder");
         }
 
+        int grade = 49;
+
+        if (grade >= 80){
+            System.out.println("You got an A");
+        } else if (grade >= 70){
+            System.out.println("You got a B");
+        }else if (grade >= 60){
+            System.out.println("You got a C");
+        }else if (grade >= 50){
+            System.out.println("You got a D");
+        }else {
+            System.out.println("You failed");
+        }
+
         double sales = 37.55;
         double costs = 5.55;
         System.out.println("Me: Hi Java, did we make money?");
