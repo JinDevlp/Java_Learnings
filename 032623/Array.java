@@ -36,20 +36,35 @@ public class Array {
 //        }
 
 //        Arrays
-        String[] cars = {"BMW","Tesla","Toyota","Ford"};
-        int[] numbers = {10, 20, 30, 40};
-
-        cars[2] = "Benz";
-        System.out.println(cars[2]);
+//        String[] cars = {"BMW","Tesla","Toyota","Ford"};
+//        int[] numbers = {10, 20, 30, 40};
+//
+//        cars[2] = "Benz";
+//        System.out.println(cars[2]);
 
 //        Loop through array
-        for (int i = 0; i<cars.length; i++){
-            System.out.println(cars[i]);
-        }
+//        for (int i = 0; i<cars.length; i++){
+//            System.out.println(cars[i]);
+//        }
 
 //      Simpler version
-        for (String i: cars ){
-            System.out.println(i);
-        }
+//        for (String i: cars ){
+//            System.out.println(i);
+//        }
+
+//        Multi dimensional array
+int[] numbers = {1,2,3,4};
+
+int[][] k = {
+        {1,2,3}, {4,5,6}, {7,8,9}
+};
+System.out.println(k[0][1]);
+
+for (int i =0; i<k.length; i++){
+    for (int j = 0; j < k[i].length; j++){
+        System.out.println(k[i][j]);
     }
+}
+
+}
 }
