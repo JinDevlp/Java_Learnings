@@ -16,12 +16,25 @@ import ObjectOriented.MyPackage.Car;
 
 public class ObjectProgramming {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String userName = scanner.nextLine();
-        System.out.println("Hello " + userName);
+        // Scanner scanner = new Scanner(System.in);
+        // String userName = scanner.nextLine();
+        // System.out.println("Hello " + userName);
 
-        Car c1 = new Car("White",2023);
-        System.out.println(c1.getColor());
+        // Car c1 = new Car("White",2023);
+        // System.out.println(c1.getColor());
+
+    /**
+     * Polymorphism
+     *
+     *      Animal
+     *     /      \
+     *    Dog     Cat
+     *
+     * Dog and Cat inside Animal class
+     *
+     * */
+        Animal dog1 = new Dog();
+        Animal dog2 = new Cat();
 
     }
 }
